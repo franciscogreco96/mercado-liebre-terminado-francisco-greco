@@ -1,0 +1,211 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+
+body {
+    font-family: 'Roboto', 'sans-serif';
+    margin: auto;
+}
+
+
+.input-borde-redondeado{
+    border-radius: 7px 7px 7px 7px;
+    border-color: white;
+    width: 40%;
+    
+}
+
+section{
+    margin-left:35%;
+}
+
+section div{
+    line-height: 300%;
+    font-weight: 600;
+}
+
+header{
+    font-family: 'Roboto', 'sans-serif';
+    background-color: #EAC926;;
+}
+
+
+#header-p-compra-en-cuotas{
+    text-align: center;
+    font-weight: bold;
+}
+
+.img-mercadoliebre{
+    margin-top: 0.6rem;
+    margin-left: 0.6rem;
+    padding: 1.2rem;
+    width: 50%;
+}
+.img-banner{
+    width: 100vw;
+    height: auto;
+    margin-bottom: -4px;
+    cursor: pointer;
+}
+
+
+p{
+font-size: 12px;
+}
+
+ul{
+    font-weight: bold;
+}
+
+
+header i{
+    margin-left: 0%;
+}
+
+.burguer-menu{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.icono-burguer-menu{
+    color: white;
+    background-color: #1259c3;
+    border-radius: 5px;
+    border: 1px #1259c3 solid;
+    padding: 0.6rem;
+    font-size: 1.4rem;
+}
+
+
+
+footer{
+    text-align: center;
+}
+
+footer i{
+    font-size: 2em;
+    margin: 10px;
+    color: #1259c3;
+    ;
+}
+
+section h2{
+    text-align: center;
+}
+
+
+main {
+    background-color: #ebebeb;
+}
+
+
+nav{
+    display: none;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+.logo-input-lupita{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    width: 95%;
+    margin-right: 5%; 
+    }
+
+#button-lupita{
+    background-color: white;
+     border-width: 1px;
+    padding: 3px 6px;
+    margin-left: -5px;
+    text-align: center;
+    color: grey;
+    border: white;
+    cursor: pointer;
+    }
+
+#input-header{
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-left: 8px;
+    width: 50%;
+    height: auto;
+    border: white;
+    }
+
+
+
+/* breakpoint tablet 361px */
+
+@media  ( min-width: 361px){
+    nav{
+        display: block;
+        text-align: left;
+    }
+    .burguer-menu{
+        display: none;
+    }
+
+    #logo-input-compra-en-cuotas{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        align-items: center;
+    }
+
+    .nav-encabezado{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 95%;
+    }
+
+    .nav-encabezado-listas{
+        display: flex;
+        flex-direction: row;
+    }
+
+    #header-p-compra-en-cuotas{
+        text-align: center;
+        font-weight: bold;
+        width: 40%;
+    }
+
+    .header-navbar-padding{
+        padding-right: 5%;
+        white-space: nowrap;
+    } 
+}
+
+
+/* breakpoint compu escritorio 769px */
+
+@media (min-width: 769px){
+    nav{
+        display: block;
+    }
+    .burguer-menu{
+        display: none;
+    }
+
+    #logo-input-compra-en-cuotas{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        align-items: center;
+    }
+
+    #header-p-compra-en-cuotas{
+        text-align: center;
+        font-weight: bold;
+        width: 40%;
+    }
+
+    .header-navbar-padding{
+        white-space: nowrap;
+        padding-right: 5%;
+    }
+    
+}

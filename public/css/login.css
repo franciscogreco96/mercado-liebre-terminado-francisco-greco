@@ -99,6 +99,10 @@ footer {
     text-align: center;
 }
 
+footer i:hover {
+    color: #f8c572;
+}
+
 footer i {
     font-size: 2em;
     margin: 10px;
@@ -225,10 +229,6 @@ nav {
     .header-navbar-padding {
         white-space: nowrap;
         padding-right: 5%;
-    }
-
-    footer i:hover {
-        color: #f8c572;
     }
 
     .footer-flex-box div {

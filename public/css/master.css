@@ -85,6 +85,15 @@ main i {
     font-size: 1.4rem;
 }
 
+.footer-flex-box h2{
+    font-size: 16px;
+    font-weight: 700;
+}
+.footer-flex-box p{
+    font-size: 12px;
+    font-weight: 600;
+}
+
 
 article {
     background-color: white;
@@ -112,23 +121,6 @@ footer i {
     margin: 10px;
     color: #1259c3;
     ;
-}
-
-footer i:hover {
-    color: #f8c572;
-}
-
-.footer-flex-box div {
-    width: 32%;
-    height: auto;
-}
-
-.footer-flex-box {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
 }
 
 section h2 {
@@ -364,6 +356,23 @@ article:hover main section article div i {
     .header-navbar-padding {
         white-space: nowrap;
         padding-right: 5%;
+    }
+
+    footer i:hover {
+        color: #f8c572;
+    }
+
+    .footer-flex-box div {
+        width: 32%;
+        height: auto;
+    }
+
+    .footer-flex-box {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
     }
 
 }

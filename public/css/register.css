@@ -173,13 +173,16 @@ nav {
     .nav-encabezado {
         display: flex;
         flex-direction: row;
-        justify-content: space-between;
-        width: 95%;
+        justify-content: space-around;
+        width: 100%;
     }
 
     .nav-encabezado-listas {
         display: flex;
         flex-direction: row;
+        width: 40%;
+        text-align: center;
+        justify-content: space-around;
     }
 
     #header-p-compra-en-cuotas {
@@ -190,7 +193,10 @@ nav {
 
     .header-navbar-padding {
         padding-right: 5%;
-        white-space: nowrap;
+    }
+
+    header nav ul li{
+        font-size: 80%;
     }
 }
 
@@ -211,6 +217,35 @@ nav {
         flex-direction: row;
         flex-wrap: nowrap;
         align-items: center;
+    }
+
+    .nav-encabezado {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        width: 100%;
+    }
+
+    .nav-encabezado-listas {
+        display: flex;
+        flex-direction: row;
+        width: 40%;
+        text-align: center;
+        justify-content: space-around;
+    }
+
+    #header-p-compra-en-cuotas {
+        text-align: center;
+        font-weight: bold;
+        width: 40%;
+    }
+
+    .header-navbar-padding {
+        padding-right: 5%;
+    }
+
+    header nav ul li{
+        font-size: 80%;
     }
 
     #header-p-compra-en-cuotas {

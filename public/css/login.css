@@ -10,7 +10,6 @@ body {
 header {
     font-family: 'Roboto', 'sans-serif';
     background-color: #EAC926;
-    ;
 }
 
 main form div input,
@@ -180,13 +179,16 @@ nav {
     .nav-encabezado {
         display: flex;
         flex-direction: row;
-        justify-content: space-between;
-        width: 95%;
+        justify-content: space-around;
+        width: 100%;
     }
 
     .nav-encabezado-listas {
         display: flex;
         flex-direction: row;
+        width: 40%;
+        text-align: center;
+        justify-content: space-around;
     }
 
     #header-p-compra-en-cuotas {
@@ -197,7 +199,10 @@ nav {
 
     .header-navbar-padding {
         padding-right: 5%;
-        white-space: nowrap;
+    }
+
+    header nav ul li{
+        font-size: 80%;
     }
 }
 
@@ -220,14 +225,33 @@ nav {
         align-items: center;
     }
 
+    .nav-encabezado {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        width: 100%;
+    }
+
+    .nav-encabezado-listas {
+        display: flex;
+        flex-direction: row;
+        width: 50%;
+        text-align: center;
+        justify-content: space-around;
+    }
+
     #header-p-compra-en-cuotas {
         text-align: center;
         font-weight: bold;
         width: 40%;
     }
 
+    header nav ul li{
+        font-size: 70%;
+    }
+
+
     .header-navbar-padding {
-        white-space: nowrap;
         padding-right: 5%;
     }
 

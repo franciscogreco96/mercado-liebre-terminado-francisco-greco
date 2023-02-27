@@ -16,17 +16,21 @@
 <body>
 
     <header>
-        <div id="logo-input-compra-en-cuotas">
-            <div class="logo-input-lupita">
-                <a href="/"><img src="\img\logo-mercado-liebre.svg" alt="Logo mercado liebre" class="img-mercadoliebre"></a>
-                <input type="search" placeholder="Buscar productos, marcas..." name="busc" id="input-header" />
-                <a href="#"><button type="submit" value="." id="button-lupita">
-                        <i class="fas fa-search"></i>
-                    </button></a>
+        <section id="top-header">
+            <div class="logo">
+                <a href="/"><img src="\img\logo-mercado-liebre.svg" alt="Logo mercado liebre"
+                        class="img-mercadoliebre"></a>
             </div>
-            <p id="header-p-compra-en-cuotas"> <i class="fas fa-hand-holding-usd"></i> Comprá en cuotas y sin tarjeta de
-                crédito</p>
-        </div>
+            <form action="/" method="get" class="form-header">
+                <input type="search" placeholder="Buscar productos, marcas..." name="buscador" class="input-header" />
+                <i class="fas fa-search"></i>
+            </form>
+            <section id="header-p-compra-en-cuotas">
+                <p> <i class="fas fa-hand-holding-usd"></i> Comprá en cuotas y sin
+                    tarjeta de
+                    crédito</p>
+            </section>
+        </section>   
         <nav>
             <div class="nav-encabezado">
                 <ul class="nav-encabezado-listas">
@@ -53,7 +57,7 @@
         <img src="/img/img-home-banner.jpg" class="img-banner">
     </header>
     <main>
-        <form action="/comentarios/save" method="post" enctype="multipart/form-data">
+        <form action="/" method="post" enctype="multipart/form-data">
             <div>
                 <input type="text" name="nombre de usuario" placeholder="Nombre de usuario"
                     title="Ingrese su nombre de usuario" class="high-line" required>

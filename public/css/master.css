@@ -14,11 +14,6 @@ header {
 }
 
 
-#header-p-compra-en-cuotas {
-    text-align: center;
-    font-weight: bold;
-}
-
 .img-mercadoliebre {
     margin-top: 0.6rem;
     margin-left: 0.6rem;
@@ -85,11 +80,12 @@ main i {
     font-size: 1.4rem;
 }
 
-.footer-flex-box h2{
+.footer-flex-box h2 {
     font-size: 16px;
     font-weight: 700;
 }
-.footer-flex-box p{
+
+.footer-flex-box p {
     font-size: 12px;
     font-weight: 600;
 }
@@ -171,7 +167,7 @@ main section article div i {
     right: 20px;
     top: -15px;
     z-index: 100;
-    transition: all;
+    transition: all 0.8s;
 }
 
 article:hover i {
@@ -200,11 +196,6 @@ nav {
     box-sizing: border-box;
 }
 
-#width-buscador {
-    width: 49%;
-    height: 49%;
-}
-
 main section {
     margin: auto;
     width: 90%;
@@ -219,45 +210,54 @@ main section {
     overflow: hidden;
 }
 
-.logo-input-lupita {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    align-items: center;
-    width: 95%;
-    margin-right: 5%;
-}
-
-#button-lupita {
-    background-color: white;
-    border-width: 1px;
-    padding: 3px 6px;
-    margin-left: -5px;
-    text-align: center;
-    color: grey;
-    border: white;
-    cursor: pointer;
-
-}
-
-#input-header {
-    padding-top: 3px;
-    padding-bottom: 3px;
-    padding-left: 8px;
-    width: 50%;
-    height: auto;
-    border: white;
-}
-
 article:hover main section article div i {
     transform: rotate(90deg);
 }
 
+#top-header {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.logo {
+    width: 45%;
+}
+
+.input-header {
+    width: 100%;
+    display: inline;
+    font-size: 13px;
+    border: none;
+
+}
+
+.form-header {
+    width: 45%;
+    background-color: white;
+    align-self: center;
+    display: flex;
+    border-radius: 5px;
+    height: 33px;
+    padding: 4px;
+
+}
+
+#header-p-compra-en-cuotas {
+    width: 100%;
+    text-align: center;
+}
+
+header section i {
+    margin: auto;
+}
 
 
-/* breakpoint tablet 361px */
+/* breakpoint tablet 481px */
 
-@media (min-width: 361px) {
+@media (min-width: 481px) {
 
     article {
         width: 40%;
@@ -282,13 +282,6 @@ article:hover main section article div i {
         flex-wrap: wrap;
     }
 
-    #logo-input-compra-en-cuotas {
-        display: flex;
-        flex-direction: row;
-        flex-wrap: nowrap;
-        align-items: center;
-    }
-
     .nav-encabezado {
         display: flex;
         flex-direction: row;
@@ -304,26 +297,32 @@ article:hover main section article div i {
         justify-content: space-around;
     }
 
-    #header-p-compra-en-cuotas {
-        text-align: center;
-        font-weight: bold;
-        width: 40%;
-    }
-
     .header-navbar-padding {
         padding-right: 5%;
     }
 
-    header nav ul li{
+    header nav ul li {
         font-size: 80%;
+    }
+
+    .logo {
+        width: 30%;
+    }
+
+    .form-header {
+        width: 30%;
+    }
+
+    #header-p-compra-en-cuotas {
+        width: 30%;
     }
 
 }
 
 
-/* breakpoint compu escritorio 769px */
+/* breakpoint compu escritorio 1024px */
 
-@media (min-width: 769px) {
+@media (min-width: 1024px) {
     article {
         width: 20%;
     }
@@ -332,25 +331,10 @@ article:hover main section article div i {
         box-shadow: 0px 0px 10px rgb(100 100 100);
     }
 
-    nav {
-        display: block;
-    }
-
-    .burguer-menu {
-        display: none;
-    }
-
     .div-articles {
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
-    }
-
-    #logo-input-compra-en-cuotas {
-        display: flex;
-        flex-direction: row;
-        flex-wrap: nowrap;
-        align-items: center;
     }
 
     .nav-encabezado {
@@ -368,25 +352,14 @@ article:hover main section article div i {
         justify-content: space-around;
     }
 
-    #header-p-compra-en-cuotas {
-        text-align: center;
-        font-weight: bold;
-        width: 40%;
-    }
-
     .header-navbar-padding {
         padding-right: 5%;
     }
 
-    header nav ul li{
+    header nav ul li {
         font-size: 80%;
     }
 
-    #header-p-compra-en-cuotas {
-        text-align: center;
-        font-weight: bold;
-        width: 40%;
-    }
 
     .header-navbar-padding {
         white-space: nowrap;
